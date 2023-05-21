@@ -1,0 +1,13 @@
+get http://localhost:3000/players/
+
+###
+delete http://localhost:3000/players/11/
+###
+post http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
